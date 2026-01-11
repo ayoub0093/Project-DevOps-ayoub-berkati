@@ -64,7 +64,7 @@ pipeline {
             sh """
             curl -X POST -H 'Content-type: application/json' \
             --data '{
-              "text": "✅ Pipeline SUCCESS\\n📦 Project: PipeLine-afaki-abdelmajid\\n🚀 Deploy OK"
+              "text": "✅ Pipeline SUCCESS\\n📦 Project: PipeLine-Berkati-Ayoub\\n🚀 Deploy OK"
             }' $SLACK_URL
             """
         }
@@ -75,7 +75,7 @@ pipeline {
             sh """
             curl -X POST -H 'Content-type: application/json' \
             --data '{
-              "text": "❌ Pipeline FAILED\\n📦 Project: PipeLine-afaki-abdelmajid"
+              "text": "❌ Pipeline FAILED\\n📦 Project: PipeLine-Berkati-Ayoub"
             }' $SLACK_URL
             """
         }
